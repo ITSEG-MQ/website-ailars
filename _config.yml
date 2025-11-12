@@ -1,5 +1,5 @@
 
-title: "ICLARS-CONF"
+title: "AILARS"
 url: "https://itseg-mq.github.io" # GH Pages root
 baseurl: "/website-ailars"        # repo name
 environment: "staging"            # env name
