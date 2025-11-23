@@ -11,6 +11,11 @@
     About Us
   </a>
 
+  <a href="{{ '/people/' | relative_url }}"
+     class="{% if page.nav == 'people' %}current{% endif %}">
+    Our People
+  </a>
+
   <a href="{{ '/research/' | relative_url }}"
      class="{% if page.nav == 'research' %}current{% endif %}">
     Our Research
@@ -29,10 +34,5 @@
   <a href="{{ '/impact/' | relative_url }}"
      class="{% if page.nav == 'impact' %}current{% endif %}">
     Our Impact
-  </a>
-
-  <a href="{{ '/people/' | relative_url }}"
-     class="{% if page.nav == 'people' %}current{% endif %}">
-    Our People
   </a>
 </nav>
