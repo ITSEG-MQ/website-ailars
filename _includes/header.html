@@ -5,11 +5,43 @@
   </div>
 </div>
 
-<nav class="nav-bar">
+<!-- <nav class="nav-bar">
   <a href="/">About Us</a>
   <a href="/research/">Our Research</a>
   <a href="/initiatives/">Key Initiatives</a>
   <a href="/opportunities/">Opportunities</a>
   <a href="/impact/">Our Impact</a>
   <a href="/people/">Our People</a>
+</nav> -->
+
+<nav class="nav-bar">
+  <a href="{{ '/' | relative_url }}"
+     class="{% if page.nav == 'home' %}current{% endif %}">
+    About Us
+  </a>
+
+  <a href="{{ '/research/' | relative_url }}"
+     class="{% if page.nav == 'research' %}current{% endif %}">
+    Our Research
+  </a>
+
+  <a href="{{ '/initiatives/' | relative_url }}"
+     class="{% if page.nav == 'initiatives' %}current{% endif %}">
+    Key Initiatives
+  </a>
+
+  <a href="{{ '/opportunities/' | relative_url }}"
+     class="{% if page.nav == 'opportunities' %}current{% endif %}">
+    Opportunities
+  </a>
+
+  <a href="{{ '/impact/' | relative_url }}"
+     class="{% if page.nav == 'impact' %}current{% endif %}">
+    Our Impact
+  </a>
+
+  <a href="{{ '/people/' | relative_url }}"
+     class="{% if page.nav == 'people' %}current{% endif %}">
+    Our People
+  </a>
 </nav>
