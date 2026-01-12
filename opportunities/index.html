@@ -22,6 +22,21 @@ nav: opportunities
   }
   .opps-page li { margin: 0.35em 0; }
   .opps-page li::marker { font-size: 1em; }
+
+  /* Force bullets to show even if theme uses flex or disables markers */
+.opps-page ul { 
+  list-style: disc outside !important;
+  margin-left: 1.0em !important;
+  padding-left: 1.2em !important;
+}
+
+.opps-page li {
+  display: list-item !important;   /* KEY: restore marker */
+}
+.opps-page li::marker {
+  font-size: 1em !important;
+}
+
 </style>
 
 
