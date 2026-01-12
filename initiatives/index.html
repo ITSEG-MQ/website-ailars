@@ -19,6 +19,16 @@ nav: initiatives
     line-height: 1.65;
   }
   .initiatives-page li { margin: 0.35em 0; }
+    /* Force bullet points to show */
+  .initiatives-page ul {
+    list-style-type: disc !important;
+    padding-left: 1.2em;
+    margin-left: 1.0em;
+  }
+  .initiatives-page li::marker {
+    font-size: 1em;
+  }
+
 </style>
 
 <div class="initiatives-page">
