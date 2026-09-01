@@ -4,5 +4,9 @@ url: "https://ailars.org"
 baseurl: "" 
 environment: "production"
 exclude:
+  - LICENSE
+  - README.md
   - editor-handbook.md
   - maintainer-handbook.md
+  - scripts
+  - tests
