@@ -29,9 +29,9 @@ Following is the tree of files in this repo, please check the notes for each fil
 │   │   ├── extra.scss
 │   │   └── main.css
 │   └── pic (reusable pictures)
-│       ├── banner-large.jpg
-│       ├── banner.jpg
-│       └── favicon.png
+│       ├── AILARS.jpg
+│       ├── banner.png
+│       └── favicon.jpg
 ├── editor-handbook.md (this file)
 ├── index.html (homepage directory)
 ├── LICENSE (do not edit)
